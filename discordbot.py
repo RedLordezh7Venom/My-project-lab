@@ -10,7 +10,6 @@ async def send_message(message, user_message, is_private):
     except Exception as e:
         print(e)
 
-
 def run_discord_bot():
     TOKEN = '<user_token>'
     intents = discord.Intents.all()
